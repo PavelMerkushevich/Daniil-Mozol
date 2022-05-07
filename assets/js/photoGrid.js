@@ -3,8 +3,8 @@ window.onload = function () {
         // options...
         itemSelector: '.grid-item',
         transitionDuration: 250,
-        columnWidth: 40,
-        gutter: 2,
+        columnWidth: 220,
+        gutter: 1,
         percentPosition: true
     });
 

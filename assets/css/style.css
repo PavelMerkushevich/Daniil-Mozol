@@ -133,7 +133,7 @@ body {
 }
 
 .grid-item-style {
-  width: 20rem;
+  width: 21rem;
   margin-bottom: 10px;
 }
 
@@ -179,8 +179,8 @@ table td {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
-
 }
+
 
 /*  @media(max-width: 1200px){
     .images_carusel{
