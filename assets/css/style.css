@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body {
-  color           : #111111;
+  color: #111111;
   background-color: #effbff;
 
 }
@@ -15,7 +15,7 @@ body {
 
 .main-block .col-lg-4 {
   margin-bottom: 1.5rem;
-  text-align   : center;
+  text-align: center;
 }
 
 .main-block h2 {
@@ -24,71 +24,79 @@ body {
 
 .main-block .col-lg-4 p {
   margin-right: .75rem;
-  margin-left : .75rem;
+  margin-left: .75rem;
 }
 
 .otziv {
   background-color: #fff;
-  width           : 30rem;
-  border          : 1px solid silver;
-  border-radius   : 1rem;
-  overflow        : hidden;
-  text-overflow   : ellipsis;
-  padding         : 20px 20px;
-  margin-left     : 10%;
-  margin-right    : 10%;
-  margin-bottom   : 1rem;
+  width: 30rem;
+  border: 1px solid silver;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1rem;
 
 }
 
-.featurette{
+.featurette {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
+}
+
+.featurette-2 {
+  display: flex;
+  justify-content: space-between; 
 }
 
 .featurette-divider {
-  margin: 3rem 0;
+  color: rgb(180, 180, 180);
+  font-size: 100%;
+  margin: 20px 0;
+  border: 1px solid rgb(180, 180, 180);
 }
 
 .featurette-divider-second {
   margin: 2rem 0;
-  color : rgb(255, 246, 232);
+  color: rgb(255, 246, 232);
 }
 
 .featurette-divider-second-l {
   margin: 3rem 0;
-  color : rgb(255, 246, 232);
+  color: rgb(255, 246, 232);
 }
 
 .h1-teacher {
   margin-bottom: 5rem;
 
-  line-height   : 1;
+  line-height: 1;
   letter-spacing: -.05rem;
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight   : 300;
-  line-height   : 1;
+  font-weight: 300;
+  line-height: 1;
   /* rtl        :remove */
   letter-spacing: -.05rem;
 }
 
-.featurette-text{
+.featurette-text {
   font-size: 150%;
 }
 
 .bd-placeholder-img {
-  font-size          : 1.125rem;
-  text-anchor        : middle;
+  font-size: 1.125rem;
+  text-anchor: middle;
   -webkit-user-select: none;
-  -moz-user-select   : none;
-  user-select        : none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .wrap-carousel {
-  display        : flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -97,25 +105,41 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white; 
+  color: white;
   height: 100vh;
   background-color: #000000;
   background-image: url("../images/Daniil_Mozol_2_crop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 90;
-  
-  
+
+
 }
-.intro-blur{
+
+.intro-blur {
   position: absolute;
   top: 0;
-  left: 0;  
-  width:100%;
+  left: 0;
+  width: 100%;
   height: 100vh;
   background-color: #000000;
   opacity: 0.5;
   z-index: 100;
+}
+
+.grid-masonry-style {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-item-style {
+  width: 27rem;
+  margin-bottom: 10px;
+}
+
+.grid-item-style-2 {
+  width: 19rem;
+  margin-bottom: 10px;
 }
 
 table th {
@@ -127,6 +151,7 @@ table td {
 }
 
 
+
 /*-------------------------------------------------- */
 
 @media (min-width: 40em) {
@@ -134,8 +159,8 @@ table td {
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
-    font-size    : 1.25rem;
-    line-height  : 1.4;
+    font-size: 1.25rem;
+    line-height: 1.4;
   }
 
   .featurette-heading {

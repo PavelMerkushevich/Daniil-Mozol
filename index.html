@@ -8,6 +8,7 @@
   <title>Главная</title>
   <!-- Bootstrap core CSS -->
   <link href="assets/bootstrap-5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/baguetteBox/baguetteBox.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -40,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Главная</a>
+              <a class="nav-link" aria-current="page" href="index.html">Главная</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Книги</a>
@@ -60,7 +61,29 @@
 
       <div class="row featurette">
         <div class="col-md-4">
-          <img src="assets/images/ya_est.jpg" alt="" style="width: 100%; margin-bottom: 5px;">
+          <div id="carouselExampleIndicators0" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="1" class=""></li>
+              <li data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="2" class=""></li>
+              <li data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="3" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/ya_est.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/Daniil_Mozol.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/Daniil_Mozol_1.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/Daniil_Mozol_2.jpg" class="d-block w-100">
+              </div>
+            </div>
+          </div>
+          <!-- <img src="assets/images/ya_est.jpg" alt="" style="width: 100%; margin-bottom: 5px;"> -->
         </div>
 
         <div class="col-md-7">
@@ -141,26 +164,55 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" style="margin-top: 50px;">
 
-      <div class="row featurette">
+      <div>
         <div>
-          <h2 class="featurette-heading">Я есть</h2>
+          <h2 class="featurette-heading">Дружба = Радость</h2>
           <p class="lead featurette-text">А ещё Данила очень дружелюбный. Всегда рад общению, мечтает о настоящих
             друзьях.</p>
         </div>
         <div class="col-md-5">
 
         </div>
-        <div class="grid-masonry">
-
-          <img src="assets/images/Druzya.jpg" class="grid-item">
-          <img src="assets/images/Druzya_2.jpg" class="grid-item">
-          <img src="assets/images/Druzya_3.jpg" class="grid-item">
+        <div class="grid-masonry grid-masonry-style">
+          <a href="assets/images/Druzya.jpg">
+            <img src="assets/images/Druzya.jpg" class="grid-item grid-item-style">
+          </a>
+          <a href="assets/images/Druzya_2.jpg">
+            <img src="assets/images/Druzya_2.jpg" class="grid-item grid-item-style">
+          </a>
+          <a href="assets/images/Druzya_3.jpg">
+            <img src="assets/images/Druzya_3.jpg" class="grid-item grid-item-style">
+          </a>
         </div>
-
       </div>
 
+      <hr class="featurette-divider">
+
+      <div class="row featurette-2">
+        <div class="col-md-4 ">
+          <h2 class="featurette-heading">Учёба превыше всего</h2>
+          <p class="lead featurette-text">И самое важное для ДАНИЛЫ - учеба,
+            стремление узнать что-то новое. Он учиться на 8, 9, 10. Всегда старается, много
+            занимается дополнительно, с огромном желанием читает.</p>
+        </div>
+        <div class="col-md-7">
+          <div class="grid-masonry-2 grid-masonry-style">
+            <a href="assets/images/Daniil_Mozol_class.jpg">
+              <img src="assets/images/Daniil_Mozol_class.jpg" class="grid-item-2 grid-item-style-2">
+            </a>
+            <a href="assets/images/Daniil_Mozol_ucheba.jpg">
+              <img src="assets/images/Daniil_Mozol_ucheba.jpg" class="grid-item-2 grid-item-style-2">
+            </a>
+            <a href="assets/images/Daniil_Mozol_nagrazhdenie.jpg">
+              <img src="assets/images/Daniil_Mozol_nagrazhdenie.jpg" class="grid-item-2 grid-item-style-2">
+            </a>
+          </div>
+        </div>
+
+
+      </div>
 
     </div>
 
@@ -184,34 +236,27 @@
 
 
     <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#" style="color:white; text-decoration: none"><button type="button"
-            class="btn btn-secondary">Вернуться вверх</button></a></p>
-      <p>Телефоны: <a href="tel:8-0162-50-31-15">8-0162-50-31-15</a>, &nbsp; <a
-          href="tel:8-0162-23-73-30">8-0162-23-73-30</a>, <br>
-        <a href="tel:8-0162-23-73-3">8-0162-23-73-3</a> <br>
-        Email: <a href="mailto:school27brest@rcit.by">school27brest@rcit.by</a>
-      </p>
+      
+    <footer class="container" style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1.5em;">
+      <div>
+      <a href="https://grambee.cf/web/site/about.html" id="copyright" class="link-info fs-4 text-decoration-none"></a>
+      </div>
+      <a href="#" class="btn btn-secondary" style="color:white; text-decoration: none">Вернуться вверх</a>
     </footer>
   </main>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="assets/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
-  <script>
-    window.onload = function () {
-    $('.grid-masonry').masonry({
-      // options...
-      itemSelector: '.grid-item',
-      transitionDuration: 0,
-      columnWidth: 40,
-      gutter: 2,
-      percentPosition: true
-    });
-  }
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script src="assets/baguetteBox/baguetteBox.min.js"></script>
+  <script src="assets/js/photoGrid.js"></script>
+  <script src="assets/js/baguetteBox.js"></script>
+
+  <script> 
+  var today = new Date();
+  var year = today.getFullYear();
+  document.getElementById("copyright").innerHTML = "&copy" + "Mercury Co. " + year;  
   </script>
 
-
 </body>
-
 </html>
