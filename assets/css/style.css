@@ -102,19 +102,35 @@ body {
 }
 
 .intro {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
   height: 100vh;
-  background-color: #000000;
+  background-color: white;
   background-image: url("../images/Daniil_Mozol_2_crop.jpg");
+  /* background-image: url("../animations/loading-2.gif"); */
   background-repeat: no-repeat;
+  /* background-size: 100vw; */
   background-size: cover;
   z-index: 90;
 
 
+}
+
+.intro-load-animation-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.intro-load-animation {
+  width: 50%;
+  height: auto;
 }
 
 .intro-blur {
