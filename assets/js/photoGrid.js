@@ -1,7 +1,7 @@
 window.onload = function () {
-    $('.grid-masonry-style').css({
-        'display': 'flex'
-    });
+    // $('.grid-masonry-style').css({
+    //     'display': 'flex'
+    // });
     $('.grid-masonry').masonry({
         // options...
         itemSelector: '.grid-item',
@@ -18,8 +18,8 @@ window.onload = function () {
         gutter: 2,
         percentPosition: true
     });
-    $('.load-animation-container').css({
-        'display': 'none'
-    });
+    // $('.load-animation-container').css({
+    //     'display': 'none'
+    // });
     
 }
