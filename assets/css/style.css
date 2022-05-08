@@ -48,7 +48,8 @@ body {
 
 .featurette-2 {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
+  align-items: center;
 }
 
 .featurette-divider {
@@ -128,7 +129,7 @@ body {
 }
 
 .grid-masonry-style {
-  display: flex;
+  display: none;
   flex-direction: row;
 }
 
@@ -141,6 +142,24 @@ body {
   width: 19rem;
   margin-bottom: 10px;
 }
+
+.load-animation-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.load-animation {
+  /* width: 50%; */
+  width: 25em;
+}
+
+.load-animation-2 {
+  /* margin-top: 10%; */
+  /* width: 50%; */
+  width: 24em;
+}
+
 
 table th {
   padding-left: 3px;

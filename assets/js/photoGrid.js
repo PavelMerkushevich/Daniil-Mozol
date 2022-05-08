@@ -1,4 +1,7 @@
 window.onload = function () {
+    $('.grid-masonry-style').css({
+        'display': 'flex'
+    });
     $('.grid-masonry').masonry({
         // options...
         itemSelector: '.grid-item',
@@ -7,7 +10,6 @@ window.onload = function () {
         gutter: 1,
         percentPosition: true
     });
-
     $('.grid-masonry-2').masonry({
         // options...
         itemSelector: '.grid-item-2',
@@ -15,6 +17,9 @@ window.onload = function () {
         columnWidth: 20,
         gutter: 2,
         percentPosition: true
+    });
+    $('.load-animation-container').css({
+        'display': 'none'
     });
     
 }
