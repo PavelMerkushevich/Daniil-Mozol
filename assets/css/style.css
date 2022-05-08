@@ -56,7 +56,7 @@ body {
   color: rgb(180, 180, 180);
   font-size: 100%;
   margin: 20px 0;
-  border: 1px solid rgb(180, 180, 180);
+  border: 0.5px solid rgb(180, 180, 180);
 }
 
 .featurette-divider-second {
@@ -174,6 +174,16 @@ body {
   /* margin-top: 10%; */
   /* width: 50%; */
   width: 22em;
+}
+
+.footer-container {
+  position: absolute;
+  padding-top: 1em;
+  border-top: 2px solid #E0E9EC;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
 
 
